@@ -1,0 +1,156 @@
+/* background colour (white) */
+body	{
+	background-color:#ffffff;
+}
+/* layout of the webpage using boxmodel */
+#page	{
+	height:700px;
+	width:1520px;
+	position:absolute;
+
+}
+#logo	{
+	height:300px;
+	width:300px;
+	position:absolute;
+
+}
+#banner	{
+	height:300px;
+	width:1220px;
+	position:absolute;
+	left:300px;
+
+}
+#menu_bar	{
+	height:40px;
+	width:1520px;
+	position:absolute;
+	top:310px;
+
+}
+#left_content	{
+	height:310px;
+	width:400px;
+	position:absolute;
+	top:400px;
+
+}
+#middle_content	{
+	height:310px;
+	width:670px;
+	position:absolute;
+	top:400px;
+	left:430px;
+
+}
+#right_content	{
+	height:310px;
+	width:400px;
+	position:absolute;
+	top:400px;
+	left:1120px;
+
+}
+
+/* format of the images on each page */
+img		{
+	height:100%;
+	width:100%;
+}
+/* format of the table on each page with the colour blue */
+table	{
+	font-family:Myanmar Text, sans-serif;
+	color: #99a3bc;
+	border-collapse: collapse;
+	width: 100%;
+}
+/* format of the table headers and rows */
+td, th	{
+	border: 3px solid #dddddd;
+	text-align: left;
+	padding: 8px;
+}
+/* format of headers on each page */
+h1		{
+	color: #d0939f;
+	font-family:Myanmar Text, sans-serif;
+}
+/* format of the paragraph text on each page */
+p {
+	color: #99a3bc;
+	font-family: Myanmar Text, sans-serif;
+	font-size: 20px;
+}
+/* format of the links on each page */
+a	{
+
+	background-color:#ffddde;
+	color: #ecc873;
+	font-family:Myanmar Text, sans-serif;
+	font-size:25px;
+	height:40px;
+	width:1520px;
+	text-align:center;
+	text-decoration:none;
+}
+a1 {
+	font-family:Myanmar Text, sans-serif;
+	font-size:25px;
+	height:40px;
+	width:1520px;
+	text-align:center;
+	text-decoration:none;
+}
+/* centering the tables and images */
+.left_center {
+	display:block;
+	margin:auto;
+	width:50%;
+}
+.right_center	{
+	display:block;
+	margin-top:75px;
+	width:50%;
+}
+.right_center_shop	{
+	display:block;
+	margin-top:30px;
+	width:100%;
+}
+/* format of the forms */
+form	{
+	color:#99a3bc;
+}
+/* format of the labels */
+label	{
+	color:#99a3bc;
+}
+/* sizing of images */
+.size	{
+	height:300px;
+	width:300px;
+}
+/* design of the gallery on each page */
+div.gallery {
+	margin: 1px;
+	border: 4px solid #d0939f;
+	float: left;
+	width: 157px;
+
+}
+div.gallery:hover {
+	border: 4px solid #99a3bc;
+}
+div.gallery img {
+	width: 100%;
+	height: 150px;
+}
+div.desc {
+	padding: 15px;
+	text-align: center;
+	background-color:#ffddde;
+	color: #ecc873;
+	font-family:Myanmar Text, sans-serif;
+	font-size:20px;
+}
